@@ -30,3 +30,22 @@ let sum3 = addition(10, 5);
 let name = "mouhamed"
 console.log("la somme de  : "+ name + " est " + sum3);
 
+
+//CHAPITRE : Chapitre 3 – Conditions et logique booléenne
+let age = 18;
+
+if (age >=18) {
+  console.log("tu es majeur.");
+} else {
+  console.log("tu es mineur");
+}
+
+let note = 15;
+
+if (note >= 18) {
+  console.log("excillent !");
+} else if (note >= 11 ){
+  console.log("bien, tu as la moyenne.");
+} else {
+  console.log("en dessous de la moyesse.");
+}
