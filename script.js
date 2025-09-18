@@ -49,3 +49,16 @@ if (note >= 18) {
 } else {
   console.log("en dessous de la moyesse.");
 }
+
+let year = "april";
+
+switch (year) {
+  case "april":
+    console.log("Début de semaine !");
+    break;
+  case "may":
+    console.log("Presque le week-end !");
+    break;
+  default:
+    console.log("year standard.");
+}
