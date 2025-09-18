@@ -26,7 +26,7 @@ function addition(a, b) {
   
 
 
-let sum3 = addition(8, 5);
+let sum3 = addition(10, 5);
 let name = "mouhamed"
 console.log("la somme de  : "+ name + " est " + sum3);
 
