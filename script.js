@@ -6,9 +6,14 @@ console.log("La somme est : " + somme);
 
 
 
+
 //CHAPITRE : Chapitre 2 – Fonctions simples
-function addition(a,b){
+function addition(a, b) {
     return a + b;
-}
-let somme1 = addition(8, 5);
-console.log("la sommeest : " + somme);
+  }
+  
+  let somme1 = addition(8, 5);
+  console.log("La somme est : " + somme1);
+
+
+  
