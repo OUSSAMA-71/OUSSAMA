@@ -62,3 +62,28 @@ switch (year) {
   default:
     console.log("year standard.");
 }
+//CHAPITRE : Chapitre 4 – Boucles : for, while, break
+for (let o =2; o <= 5; o++) {
+  console.log("itération n° " + o);
+}
+
+let compteur = 5;
+while (compteur <= 7) {
+  console.log("compteur :" + compteur);
+  compteur++;
+}
+let x = 0;
+do{
+  console.log("valeur de x : " + x);
+  x++;
+}while (x < 5);
+
+for (let i = 1; i <= 10; i++) {
+  if (i === 5) break; // sauter le 5
+  console.log("Nombre : " + i);
+}
+
+for (let i = 1; i <=4; i++){
+  if (i ===2) continue; // saute le 3
+  console.log (i);
+}
