@@ -17,5 +17,6 @@ function addition(a,b){
     return a + b;
 }
 let somme1 = addition(8, 5);
+let name = "mouhamed"
 console.log("la sommeest : " + somme);
 >>>>>>> a3049005e3a08634e874f05d435644b3eee79f47
